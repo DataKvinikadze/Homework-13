@@ -5,6 +5,7 @@
     max-width: 730px;
     padding: 9.5px 10px 9.5px 32px;
     margin: 0 auto;
+
     .input_content {
       width: 688px;
       display: flex;
@@ -19,8 +20,17 @@
         input {
           border: none;
           outline: none;
+          background-color: transparent;
+        }
+        .input_dark {
+          color: #ffffff;
         }
       }
     }
   }
+  .inp_div_dark {
+    background-color: #1e2a47;
+  }
 }
+
+// DARK MODE

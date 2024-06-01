@@ -17,6 +17,10 @@ body {
   font-family: "Space Mono", monospace;
 }
 
+.dark {
+  background-color: #141d2f;
+}
+
 a {
   color: #4b6a9b;
 }
@@ -25,20 +29,33 @@ img {
   display: block;
 }
 
+.a_dark {
+  color: #ffffff;
+}
+
 header .header_content span {
   font-weight: bold;
   font-size: 26px;
+}
+header .header_content .header_span_dark {
+  color: #ffffff;
 }
 header .header_content button span {
   font-weight: bold;
   letter-spacing: 2.5px;
   font-size: 13px;
 }
+header .header_content button .btn_spn_dark {
+  color: #ffffff;
+}
 
 #card .card .content .card_header .profile_id h1 {
   color: #2b3442;
   font-weight: bold;
   font-size: 26px;
+}
+#card .card .content .card_header .profile_id .h1_dark {
+  color: #ffffff;
 }
 #card .card .content .card_header .profile_id h2 {
   color: #0079ff;
@@ -49,19 +66,31 @@ header .header_content button span {
   font-size: 15px;
   color: #697c9a;
 }
+#card .card .content .card_header .profile_id .p_dark {
+  color: #ffffff;
+}
 #card .card .content .card_header .bio {
   color: #4b6a9b;
   font-size: 15px;
+}
+#card .card .content .card_header .bio_dark {
+  color: #ffffff;
 }
 #card .card .content .card_main .info .activity .content h4 {
   font-size: 13px;
   color: #4b6a9b;
   font-weight: normal;
 }
+#card .card .content .card_main .info .activity .content .h4_dark {
+  color: #ffffff;
+}
 #card .card .content .card_main .info .activity .content span {
   font-weight: bold;
   font-size: 22px;
   color: #2b3442;
+}
+#card .card .content .card_main .info .activity .content .spn_dark {
+  color: #ffffff;
 }
 
 @media (max-width: 375px) {
@@ -159,6 +188,9 @@ header .header_content button:active {
   display: flex;
   justify-content: space-between;
 }
+#card .card .content .card_main .info .activity_dark {
+  background-color: #141d2f;
+}
 #card .card .content .card_main .links {
   max-width: 480px;
   padding-top: 37px;
@@ -187,6 +219,9 @@ header .header_content button:active {
 #card .card .content .card_main .links .grid_4 {
   grid-column: 3;
   grid-row: 3;
+}
+#card .card_dark {
+  background-color: #1e2a47;
 }
 
 .container header .header_content {
@@ -222,6 +257,13 @@ header .header_content button:active {
 #input-section .input .input_content .value input {
   border: none;
   outline: none;
+  background-color: transparent;
+}
+#input-section .input .input_content .value .input_dark {
+  color: #ffffff;
+}
+#input-section .inp_div_dark {
+  background-color: #1e2a47;
 }
 
 .grid {

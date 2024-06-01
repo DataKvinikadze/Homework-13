@@ -4,11 +4,20 @@ header {
       font-weight: bold;
       font-size: 26px;
     }
+
+    .header_span_dark {
+      color: #ffffff;
+    }
+
     button {
       span {
         font-weight: bold;
         letter-spacing: 2.5px;
         font-size: 13px;
+      }
+
+      .btn_spn_dark {
+        color: #ffffff;
       }
     }
   }
@@ -24,6 +33,11 @@ header {
             font-weight: bold;
             font-size: 26px;
           }
+
+          .h1_dark {
+            color: #ffffff;
+          }
+
           h2 {
             color: #0079ff;
             font-size: 16px;
@@ -33,10 +47,17 @@ header {
             font-size: 15px;
             color: #697c9a;
           }
+          .p_dark {
+            color: #ffffff;
+          }
         }
         .bio {
           color: #4b6a9b;
           font-size: 15px;
+        }
+
+        .bio_dark {
+          color: #ffffff;
         }
       }
       .card_main {
@@ -48,10 +69,18 @@ header {
                 color: #4b6a9b;
                 font-weight: normal;
               }
+
+              .h4_dark {
+                color: #ffffff;
+              }
+
               span {
                 font-weight: bold;
                 font-size: 22px;
                 color: #2b3442;
+              }
+              .spn_dark {
+                color: #ffffff;
               }
             }
           }
