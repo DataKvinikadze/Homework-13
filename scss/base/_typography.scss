@@ -1,0 +1,131 @@
+header {
+  .header_content {
+    span {
+      font-weight: bold;
+      font-size: 26px;
+    }
+    button {
+      span {
+        font-weight: bold;
+        letter-spacing: 2.5px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+#card {
+  .card {
+    .content {
+      .card_header {
+        .profile_id {
+          h1 {
+            color: #2b3442;
+            font-weight: bold;
+            font-size: 26px;
+          }
+          h2 {
+            color: #0079ff;
+            font-size: 16px;
+            font-weight: bold;
+          }
+          p {
+            font-size: 15px;
+            color: #697c9a;
+          }
+        }
+        .bio {
+          color: #4b6a9b;
+          font-size: 15px;
+        }
+      }
+      .card_main {
+        .info {
+          .activity {
+            .content {
+              h4 {
+                font-size: 13px;
+                color: #4b6a9b;
+                font-weight: normal;
+              }
+              span {
+                font-weight: bold;
+                font-size: 22px;
+                color: #2b3442;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    .header_content {
+      span {
+        font-weight: bold;
+        font-size: 26px;
+      }
+      button {
+        span {
+          font-weight: bold;
+          letter-spacing: 2.5px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  #card {
+    .card {
+      .content {
+        .card_header {
+          .profile_id {
+            h1 {
+              color: #2b3442;
+              font-weight: bold;
+              font-size: 16px;
+            }
+            h2 {
+              color: #0079ff;
+              font-size: 13px;
+              font-weight: normal;
+            }
+            p {
+              font-size: 13px;
+              color: #697c9a;
+            }
+          }
+          .bio {
+            color: #4b6a9b;
+            font-size: 13px;
+          }
+        }
+        .card_main {
+          .info {
+            .activity {
+              .content {
+                h4 {
+                  font-size: 11px;
+                  color: #4b6a9b;
+                  font-weight: normal;
+                }
+                span {
+                  font-weight: bold;
+                  font-size: 16px;
+                  color: #2b3442;
+                }
+              }
+            }
+          }
+          .links {
+            a {
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+#input-section {
+  .input {
+    border-radius: 15px;
+    background-color: #ffffff;
+    max-width: 730px;
+    padding: 9.5px 10px 9.5px 32px;
+    margin: 0 auto;
+    .input_content {
+      width: 688px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .value {
+        display: flex;
+        align-items: center;
+        img {
+          padding-right: 24px;
+        }
+        input {
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}

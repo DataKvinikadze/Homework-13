@@ -1,0 +1,27 @@
+header {
+  .header_content {
+    button {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      color: #697c9a;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      span {
+        padding-right: 16px;
+      }
+    }
+    button:active {
+      color: #222731;
+    }
+  }
+}
+
+.search {
+  padding: 12px 23px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0079ff;
+  color: #ffffff;
+}
