@@ -1,20 +1,22 @@
 .grid {
+  max-height: 140px;
+  height: 100%;
   display: grid;
   grid-template-columns: 117px 37px 480px;
-  grid-template-rows: 65px 20px 25px;
+  grid-template-rows: 1fr 20px 1fr;
 }
 
-.grid_1 {
+.profile-picture {
   grid-row: 1 / 4;
   grid-column: 1;
 }
 
-.grid_2 {
+.profile-info {
   grid-row: 1;
   grid-column: 3;
 }
 
-.grid_3 {
+.bio-info {
   grid-row: 3;
   grid-column: 3;
 }

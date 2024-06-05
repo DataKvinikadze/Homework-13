@@ -1,6 +1,6 @@
 header {
-  .header_content {
-    button {
+  .header-content {
+    .dark-light-toggle {
       background-color: transparent;
       outline: none;
       border: none;
@@ -8,17 +8,18 @@ header {
       display: flex;
       align-items: center;
       cursor: pointer;
-      span {
+      .dark-light-mode {
         padding-right: 16px;
       }
     }
+
     button:active {
       color: #222731;
     }
   }
 }
 
-.search {
+.search-btn {
   padding: 12px 23px;
   border: none;
   border-radius: 10px;

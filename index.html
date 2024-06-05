@@ -12,102 +12,108 @@
     />
     <title>Document</title>
   </head>
-  <body class="dark">
-    <div class="container">
+  <body class="">
+    <div class="main-container">
       <header>
-        <div class="header">
-          <div class="header_content">
-            <span>devfinder</span>
-            <button>
-              <span>DARK</span> <img src="./images/moon (1).svg" alt="" />
+        <div class="header-wrapper">
+          <div class="header-content">
+            <span class="header-title">devfinder</span>
+            <button class="dark-light-toggle">
+              <span class="dark-light-mode">DARK</span>
+              <img src="./images/moon (1).svg" alt="Moon icon" />
             </button>
           </div>
         </div>
       </header>
 
       <main>
-        <section id="input-section">
-          <div class="input inp_div_dark">
-            <div class="input_content">
-              <div class="value">
-                <img src="./images/Shape 2.svg" alt="Search-icon" />
+        <section id="search-section">
+          <div class="search-box">
+            <div class="search-content">
+              <div class="search-input">
+                <img src="./images/Shape 2.svg" alt="Search icon" />
                 <input
-                  id="input_Value"
-                  class="input_dark"
+                  id="search-input"
+                  class=""
                   type="text"
                   placeholder="Search GitHub username…"
                 />
               </div>
-              <button class="search">Search</button>
+              <div class="btn">
+                <span class="result">No results </span>
+                <button class="search-btn">Search</button>
+              </div>
             </div>
           </div>
         </section>
-        <section id="card">
-          <div class="card card_dark">
-            <div class="content">
-              <div class="card_header grid">
-                <div class="profile_picture grid_1">
-                  <img src="./images/Oval.svg" alt="" />
+        <section id="profile-section">
+          <div class="profile-card">
+            <div class="profile-content">
+              <div class="profile-header grid">
+                <div class="profile-picture grid_1">
+                  <img src="./images/Oval.svg" alt="Profile picture" />
                 </div>
-                <div class="profile_id grid_2">
-                  <div class="name_info">
-                    <h1 class="h1_dark">The Octocat</h1>
-                    <h2>@octocat</h2>
+                <div class="profile-info grid_2">
+                  <div class="user-info">
+                    <h1 class="user-name">The Octocat</h1>
+                    <h2 class="user-nickname">@octocat</h2>
                   </div>
-                  <div class="join">
-                    <p class="p_dark">Joined 25 Jan 2011</p>
+                  <div class="join-date">
+                    <p class="join-info">Joined 25 Jan 2011</p>
                   </div>
                 </div>
-                <div class="grid_3">
-                  <p class="bio bio_dark">This profile has no bio</p>
+                <div class="bio-info grid_3">
+                  <p class="user-bio">This profile has no bio</p>
                 </div>
               </div>
-              <div class="card_main">
-                <div class="info">
-                  <div class="activity activity_dark">
-                    <div class="content">
-                      <div class="box box_1">
-                        <h4 class="h4_dark">Repos</h4>
-                        <span class="spn_dark">8</span>
+              <div class="profile-details">
+                <div class="user-stats">
+                  <div class="stat-box">
+                    <div class="stats-content">
+                      <div class="stat-item box_1">
+                        <h4 class="stat-title repos">Repos</h4>
+                        <span class="stat-value repos-value">8</span>
                       </div>
-                      <div class="box box_2">
-                        <h4 class="h4_dark">Followers</h4>
-                        <span class="spn_dark">3938</span>
+                      <div class="stat-item box_2">
+                        <h4 class="stat-title follower">Followers</h4>
+                        <span class="stat-value follower-value">3938</span>
                       </div>
-                      <div class="box box_3">
-                        <h4 class="dark">Following</h4>
-                        <span class="spn_dark">9</span>
+                      <div class="stat-item box_3">
+                        <h4 class="stat-title following">Following</h4>
+                        <span class="stat-value following-value">9</span>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="links link_grid">
-                  <div class="grid_1">
-                    <a href="#"
-                      ><img src="./images/003-pin.svg" alt="" />San Francisco</a
-                    >
+                <div class="user-links link-grid">
+                  <div class="link-item-1">
+                    <a class="link-anchor" href="#">
+                      <img
+                        src="./images/003-pin.svg"
+                        alt="Location icon"
+                      /><span class="location">San Francisco </span>
+                    </a>
                   </div>
-                  <div class="grid_2">
-                    <a href="#"
-                      ><img
-                        src="./images/002-url.svg"
-                        alt=""
-                      />https://github.blog</a
-                    >
+                  <div class="link-item-2">
+                    <a class="link-anchor" href="#">
+                      <img src="./images/002-url.svg" alt="Link icon" />
+                      <span class="github"> htps://gitub.blog </span>
+                    </a>
                   </div>
-                  <div class="grid_3">
-                    <a href="#"
-                      ><img src="./images/004-twitter.svg" alt="" />Not
-                      Available</a
-                    >
+                  <div class="link-item-3">
+                    <a class="link-anchor" href="#">
+                      <img src="./images/004-twitter.svg" alt="Twitter icon" />
+                      <span class="twitter">Not Available</span>
+                    </a>
                   </div>
-                  <div class="grid_4">
-                    <a href="#"
-                      ><img
+                  <div class="link-item-4">
+                    <a class="link-anchor" href="#">
+                      <img
                         src="./images/001-office-building.svg"
-                        alt=""
-                      />@github</a
-                    >
+                        alt="Office icon"
+                      />
+                      <span class="office">@github</span>
+                    </a>
                   </div>
                 </div>
               </div>

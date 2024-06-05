@@ -1,11 +1,13 @@
 header {
-  .header_content {
-    span {
+  .header-content {
+    .header-title {
       font-weight: bold;
       font-size: 26px;
     }
 
-    .header_span_dark {
+    //header title
+
+    .header-title-toggle {
       color: #ffffff;
     }
 
@@ -16,25 +18,25 @@ header {
         font-size: 13px;
       }
 
-      .btn_spn_dark {
+      .toggle-dark {
         color: #ffffff;
       }
     }
   }
 }
 
-#card {
-  .card {
-    .content {
-      .card_header {
-        .profile_id {
+#profile-section {
+  .profile-card {
+    .profile-content {
+      .profile-header {
+        .profile-info {
           h1 {
             color: #2b3442;
             font-weight: bold;
             font-size: 26px;
           }
 
-          .h1_dark {
+          .user-name-toggle {
             color: #ffffff;
           }
 
@@ -47,30 +49,31 @@ header {
             font-size: 15px;
             color: #697c9a;
           }
-          .p_dark {
+
+          .join-info-toggle {
             color: #ffffff;
           }
         }
-        .bio {
+        .user-bio {
           color: #4b6a9b;
           font-size: 15px;
         }
 
-        .bio_dark {
+        .user-bio-toggle {
           color: #ffffff;
         }
       }
-      .card_main {
-        .info {
-          .activity {
-            .content {
+      .profile-details {
+        .user-stats {
+          .stat-box {
+            .stats-content {
               h4 {
                 font-size: 13px;
                 color: #4b6a9b;
                 font-weight: normal;
               }
 
-              .h4_dark {
+              .stat-title-toggle {
                 color: #ffffff;
               }
 
@@ -79,10 +82,16 @@ header {
                 font-size: 22px;
                 color: #2b3442;
               }
-              .spn_dark {
+
+              .stat-value-toggle {
                 color: #ffffff;
               }
             }
+          }
+        }
+        .user-links {
+          .aref {
+            color: #ffffff;
           }
         }
       }
@@ -92,7 +101,7 @@ header {
 
 @media (max-width: 375px) {
   header {
-    .header_content {
+    .header-content {
       span {
         font-weight: bold;
         font-size: 26px;
@@ -106,11 +115,11 @@ header {
       }
     }
   }
-  #card {
-    .card {
-      .content {
-        .card_header {
-          .profile_id {
+  #profile-section {
+    .profile-card {
+      .profile-content {
+        .profile-info {
+          .user-info {
             h1 {
               color: #2b3442;
               font-weight: bold;
@@ -126,20 +135,21 @@ header {
               color: #697c9a;
             }
           }
-          .bio {
+          .user-bio {
             color: #4b6a9b;
             font-size: 13px;
           }
         }
-        .card_main {
-          .info {
-            .activity {
-              .content {
+        .profile-details {
+          .user-stats {
+            .stat-box {
+              .stats-content {
                 h4 {
                   font-size: 11px;
                   color: #4b6a9b;
                   font-weight: normal;
                 }
+
                 span {
                   font-weight: bold;
                   font-size: 16px;
@@ -148,7 +158,7 @@ header {
               }
             }
           }
-          .links {
+          .user-links {
             a {
               font-size: 13px;
             }

@@ -29,113 +29,112 @@ img {
   display: block;
 }
 
-.a_dark {
-  color: #ffffff;
-}
-
-header .header_content span {
+header .header-content .header-title {
   font-weight: bold;
   font-size: 26px;
 }
-header .header_content .header_span_dark {
+header .header-content .header-title-toggle {
   color: #ffffff;
 }
-header .header_content button span {
+header .header-content button span {
   font-weight: bold;
   letter-spacing: 2.5px;
   font-size: 13px;
 }
-header .header_content button .btn_spn_dark {
+header .header-content button .toggle-dark {
   color: #ffffff;
 }
 
-#card .card .content .card_header .profile_id h1 {
+#profile-section .profile-card .profile-content .profile-header .profile-info h1 {
   color: #2b3442;
   font-weight: bold;
   font-size: 26px;
 }
-#card .card .content .card_header .profile_id .h1_dark {
+#profile-section .profile-card .profile-content .profile-header .profile-info .user-name-toggle {
   color: #ffffff;
 }
-#card .card .content .card_header .profile_id h2 {
+#profile-section .profile-card .profile-content .profile-header .profile-info h2 {
   color: #0079ff;
   font-size: 16px;
   font-weight: bold;
 }
-#card .card .content .card_header .profile_id p {
+#profile-section .profile-card .profile-content .profile-header .profile-info p {
   font-size: 15px;
   color: #697c9a;
 }
-#card .card .content .card_header .profile_id .p_dark {
+#profile-section .profile-card .profile-content .profile-header .profile-info .join-info-toggle {
   color: #ffffff;
 }
-#card .card .content .card_header .bio {
+#profile-section .profile-card .profile-content .profile-header .user-bio {
   color: #4b6a9b;
   font-size: 15px;
 }
-#card .card .content .card_header .bio_dark {
+#profile-section .profile-card .profile-content .profile-header .user-bio-toggle {
   color: #ffffff;
 }
-#card .card .content .card_main .info .activity .content h4 {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content h4 {
   font-size: 13px;
   color: #4b6a9b;
   font-weight: normal;
 }
-#card .card .content .card_main .info .activity .content .h4_dark {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content .stat-title-toggle {
   color: #ffffff;
 }
-#card .card .content .card_main .info .activity .content span {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content span {
   font-weight: bold;
   font-size: 22px;
   color: #2b3442;
 }
-#card .card .content .card_main .info .activity .content .spn_dark {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content .stat-value-toggle {
+  color: #ffffff;
+}
+#profile-section .profile-card .profile-content .profile-details .user-links .aref {
   color: #ffffff;
 }
 
 @media (max-width: 375px) {
-  header .header_content span {
+  header .header-content span {
     font-weight: bold;
     font-size: 26px;
   }
-  header .header_content button span {
+  header .header-content button span {
     font-weight: bold;
     letter-spacing: 2.5px;
     font-size: 13px;
   }
-  #card .card .content .card_header .profile_id h1 {
+  #profile-section .profile-card .profile-content .profile-info .user-info h1 {
     color: #2b3442;
     font-weight: bold;
     font-size: 16px;
   }
-  #card .card .content .card_header .profile_id h2 {
+  #profile-section .profile-card .profile-content .profile-info .user-info h2 {
     color: #0079ff;
     font-size: 13px;
     font-weight: normal;
   }
-  #card .card .content .card_header .profile_id p {
+  #profile-section .profile-card .profile-content .profile-info .user-info p {
     font-size: 13px;
     color: #697c9a;
   }
-  #card .card .content .card_header .bio {
+  #profile-section .profile-card .profile-content .profile-info .user-bio {
     color: #4b6a9b;
     font-size: 13px;
   }
-  #card .card .content .card_main .info .activity .content h4 {
+  #profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content h4 {
     font-size: 11px;
     color: #4b6a9b;
     font-weight: normal;
   }
-  #card .card .content .card_main .info .activity .content span {
+  #profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content span {
     font-weight: bold;
     font-size: 16px;
     color: #2b3442;
   }
-  #card .card .content .card_main .links a {
+  #profile-section .profile-card .profile-content .profile-details .user-links a {
     font-size: 13px;
   }
 }
-header .header_content button {
+header .header-content .dark-light-toggle {
   background-color: transparent;
   outline: none;
   border: none;
@@ -144,14 +143,14 @@ header .header_content button {
   align-items: center;
   cursor: pointer;
 }
-header .header_content button span {
+header .header-content .dark-light-toggle .dark-light-mode {
   padding-right: 16px;
 }
-header .header_content button:active {
+header .header-content button:active {
   color: #222731;
 }
 
-.search {
+.search-btn {
   padding: 12px 23px;
   border: none;
   border-radius: 10px;
@@ -159,7 +158,7 @@ header .header_content button:active {
   color: #ffffff;
 }
 
-#card .card {
+#profile-section .profile-card {
   width: 730px;
   height: 444px;
   margin: 24px auto;
@@ -167,64 +166,65 @@ header .header_content button:active {
   background-color: #ffffff;
   border-radius: 15px;
 }
-#card .card .content .grid .profile_id {
+#profile-section .profile-card .profile-content .grid .profile-info {
   display: flex;
   justify-content: space-between;
 }
-#card .card .content .card_main {
+#profile-section .profile-card .profile-content .profile-details {
   display: flex;
   flex-direction: column;
   align-items: end;
   padding-top: 32px;
 }
-#card .card .content .card_main .info .activity {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box {
   border-radius: 10px;
   background-color: #f6f8ff;
   width: 480px;
   height: 85px;
   padding: 15px 83px 17px 32px;
 }
-#card .card .content .card_main .info .activity .content {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box .stats-content {
   display: flex;
   justify-content: space-between;
 }
-#card .card .content .card_main .info .activity_dark {
+#profile-section .profile-card .profile-content .profile-details .user-stats .stat-box-toggle {
   background-color: #141d2f;
 }
-#card .card .content .card_main .links {
+#profile-section .profile-card .profile-content .profile-details .user-links {
   max-width: 480px;
+  width: 100%;
   padding-top: 37px;
   display: grid;
-  grid-template-columns: 1fr 62px 1fr;
+  grid-template-columns: 211px 1fr 211px;
   grid-template-rows: 1fr 21px 1fr;
 }
-#card .card .content .card_main .links a {
+#profile-section .profile-card .profile-content .profile-details .user-links a {
   display: flex;
 }
-#card .card .content .card_main .links a img {
+#profile-section .profile-card .profile-content .profile-details .user-links a img {
   padding-right: 20px;
 }
-#card .card .content .card_main .links .grid_1 {
+#profile-section .profile-card .profile-content .profile-details .user-links .link-item-1 {
   grid-column: 1;
   grid-row: 1;
 }
-#card .card .content .card_main .links .grid_2 {
+#profile-section .profile-card .profile-content .profile-details .user-links .link-item-2 {
   grid-column: 1;
   grid-row: 3;
 }
-#card .card .content .card_main .links .grid_3 {
+#profile-section .profile-card .profile-content .profile-details .user-links .link-item-3 {
   grid-column: 3;
   grid-row: 1;
 }
-#card .card .content .card_main .links .grid_4 {
+#profile-section .profile-card .profile-content .profile-details .user-links .link-item-4 {
   grid-column: 3;
   grid-row: 3;
 }
-#card .card_dark {
+#profile-section .profile-card-toggle {
   background-color: #1e2a47;
 }
 
-.container header .header_content {
+.main-container .header-wrapper .header-content {
   margin: 0 auto;
   padding-bottom: 35px;
   padding-top: 144px;
@@ -234,178 +234,200 @@ header .header_content button:active {
   align-items: center;
 }
 
-#input-section .input {
+#search-section .search-box {
   border-radius: 15px;
   background-color: #ffffff;
   max-width: 730px;
   padding: 9.5px 10px 9.5px 32px;
   margin: 0 auto;
 }
-#input-section .input .input_content {
+#search-section .search-box .search-content {
   width: 688px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#input-section .input .input_content .value {
+#search-section .search-box .search-content .search-input {
   display: flex;
   align-items: center;
 }
-#input-section .input .input_content .value img {
+#search-section .search-box .search-content .search-input img {
   padding-right: 24px;
 }
-#input-section .input .input_content .value input {
+#search-section .search-box .search-content .search-input input {
   border: none;
   outline: none;
   background-color: transparent;
 }
-#input-section .input .input_content .value .input_dark {
+#search-section .search-box .search-content .search-input .search-field::-moz-placeholder {
   color: #ffffff;
 }
-#input-section .inp_div_dark {
+#search-section .search-box .search-content .search-input .search-field::placeholder {
+  color: #ffffff;
+}
+#search-section .search-box .search-content .btn {
+  max-width: 222px;
+  display: flex;
+  align-items: center;
+}
+#search-section .search-box .search-content .btn .result {
+  display: none;
+}
+#search-section .search-box .search-content .btn .no-result {
+  padding-right: 24px;
+  display: block;
+  color: red;
+  font-size: 15px;
+  font-style: bold;
+}
+#search-section .search-box-toggle {
   background-color: #1e2a47;
 }
 
 .grid {
+  max-height: 140px;
+  height: 100%;
   display: grid;
   grid-template-columns: 117px 37px 480px;
-  grid-template-rows: 65px 20px 25px;
+  grid-template-rows: 1fr 20px 1fr;
 }
 
-.grid_1 {
+.profile-picture {
   grid-row: 1/4;
   grid-column: 1;
 }
 
-.grid_2 {
+.profile-info {
   grid-row: 1;
   grid-column: 3;
 }
 
-.grid_3 {
+.bio-info {
   grid-row: 3;
   grid-column: 3;
 }
 
 @media (max-width: 768px) {
-  .container .header .header_content {
+  .main-container .header-wrapper .header-content {
     padding: 39px 0px 36px 0px;
     max-width: 573px;
   }
-  #input-section .input {
-    max-width: 573px;
+  #search-section .search-box {
+    max-width: 688px;
     padding: 9.5px 10px 9.5px 32px;
   }
-  #input-section .input .input_content {
-    max-width: 531px;
+  #search-section .search-box .search-content {
+    max-width: 688px;
   }
-  #card .card {
+  #search-section .search-box .search-content .btn .result {
+    display: none;
+  }
+  #profile-section .profile-card {
     width: 573px;
     height: 481px;
     padding: 40px;
   }
-  #card .card .content .grid {
+  #profile-section .profile-card .profile-content .grid {
     grid-template-columns: 117px 41px 1fr;
     grid-template-rows: 117px 24px 1fr;
   }
-  #card .card .content .grid .profile_picture img {
+  #profile-section .profile-card .profile-content .grid .profile-picture img {
     width: 117px;
     height: 117px;
   }
-  #card .card .content .grid .profile_id {
-    flex-direction: column;
-    height: 91px;
+  #profile-section .profile-card .profile-content .grid .profile-picture {
+    height: 117px;
+    width: 117px;
   }
-  #card .card .content .grid .grid_1 {
+  #profile-section .profile-card .profile-content .grid .profile-info {
+    flex-direction: column;
+  }
+  #profile-section .profile-card .profile-content .grid .grid_1 {
     grid-column: 1;
     grid-row: 1;
   }
-  #card .card .content .grid .grid_2 {
+  #profile-section .profile-card .profile-content .grid .grid_2 {
     grid-column: 3;
     grid-row: 1;
   }
-  #card .card .content .grid .grid_3 {
-    grid-column: 1/5;
+  #profile-section .profile-card .profile-content .grid .grid_3 {
+    grid-column: 3;
     grid-row: 3;
   }
-  #card .card .content .card_main {
+  #profile-section .profile-card .profile-content .profile-details {
     flex-direction: column;
     justify-content: center;
     padding-top: 32px;
   }
-  #card .card .content .card_main .info .activity {
+  #profile-section .profile-card .profile-content .profile-details .user-stats .stat-box {
     border-radius: 10px;
     width: 493px;
     height: 85px;
     padding: 15px 96px 17px 32px;
   }
-  #card .card .content .links {
+  #profile-section .profile-card .profile-content .user-links {
     padding-top: 37px;
     display: grid;
     grid-template-columns: 1fr 62px 1fr;
     grid-template-rows: 1fr 21px 1fr;
   }
-  #card .card .content .links a {
+  #profile-section .profile-card .profile-content .user-links a {
     display: flex;
   }
-  #card .card .content .links a img {
+  #profile-section .profile-card .profile-content .user-links a img {
     padding-right: 20px;
   }
 }
 @media (max-width: 375px) {
-  .container .header .header_content {
+  .main-container .header-wrapper .header-content {
     padding: 31px 0px 36px 0px;
     max-width: 573px;
   }
-  #input-section .input {
+  #input-section .search-box {
     max-width: 327px;
     padding: 6.5px 7px 7.5px 16px;
   }
-  #input-section .input .input_content {
+  #input-section .search-box .search-content {
     max-width: 304px;
   }
-  #card .card {
+  #profile-section .profile-card {
     width: 327px;
     height: 517px;
     padding: 32px 24px 48px 24px;
   }
-  #card .card .content .grid {
+  #profile-section .profile-card .profile-content .grid {
     grid-template-columns: 70px 19px 1fr;
     grid-template-rows: 70px 33px 1fr;
   }
-  #card .card .content .grid .profile_picture img {
+  #profile-section .profile-card .profile-content .grid .grid_1 img {
     width: 70px;
     height: 70px;
   }
-  #card .card .content .grid .profile_id {
+  #profile-section .profile-card .profile-content .grid .grid_2 {
     flex-direction: column;
     height: 69px;
   }
-  #card .card .content .grid .grid_1 {
-    grid-column: 1;
-    grid-row: 1;
-  }
-  #card .card .content .grid .grid_2 {
+  #profile-section .profile-card .profile-content .grid .grid_2 {
     grid-column: 3;
     grid-row: 1;
   }
-  #card .card .content .grid .grid_3 {
+  #profile-section .profile-card .profile-content .grid .grid_3 {
     grid-column: 1/4;
     grid-row: 3;
   }
-  #card .card .content .card_main {
+  #profile-section .profile-card .profile-content .profile-details {
     flex-direction: column;
     justify-content: center;
     align-items: start;
     padding-top: 23px;
   }
-  #card .card .content .card_main .info .activity {
+  #profile-section .profile-card .profile-content .profile-details .user-stats .stat-box {
     border-radius: 10px;
     width: 279px;
     height: 85px;
     padding: 18px 14px 19px 15px;
   }
-  #card .card .content .card_main .links {
+  #profile-section .profile-card .profile-content .profile-details .user-links {
     padding-top: 25px;
     display: flex;
     flex-direction: column;

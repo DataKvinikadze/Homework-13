@@ -1,17 +1,17 @@
-#input-section {
-  .input {
+#search-section {
+  .search-box {
     border-radius: 15px;
     background-color: #ffffff;
     max-width: 730px;
     padding: 9.5px 10px 9.5px 32px;
     margin: 0 auto;
 
-    .input_content {
+    .search-content {
       width: 688px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      .value {
+      .search-input {
         display: flex;
         align-items: center;
         img {
@@ -22,13 +22,31 @@
           outline: none;
           background-color: transparent;
         }
-        .input_dark {
+        .search-field::placeholder {
           color: #ffffff;
+        }
+      }
+
+      .btn {
+        max-width: 222px;
+        display: flex;
+        align-items: center;
+
+        .result {
+          display: none;
+        }
+
+        .no-result {
+          padding-right: 24px;
+          display: block;
+          color: red;
+          font-size: 15px;
+          font-style: bold;
         }
       }
     }
   }
-  .inp_div_dark {
+  .search-box-toggle {
     background-color: #1e2a47;
   }
 }
