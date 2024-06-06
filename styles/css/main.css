@@ -313,11 +313,11 @@ header .header-content button:active {
     max-width: 573px;
   }
   #search-section .search-box {
-    max-width: 688px;
+    max-width: 573px;
     padding: 9.5px 10px 9.5px 32px;
   }
   #search-section .search-box .search-content {
-    max-width: 688px;
+    max-width: 531px;
   }
   #search-section .search-box .search-content .btn .result {
     display: none;
@@ -381,14 +381,17 @@ header .header-content button:active {
 @media (max-width: 375px) {
   .main-container .header-wrapper .header-content {
     padding: 31px 0px 36px 0px;
-    max-width: 573px;
+    max-width: 327px;
   }
-  #input-section .search-box {
+  #search-section .search-box {
     max-width: 327px;
     padding: 6.5px 7px 7.5px 16px;
   }
-  #input-section .search-box .search-content {
+  #search-section .search-box .search-content {
     max-width: 304px;
+  }
+  #search-section .search-box .search-content .btn .search-btn {
+    padding: 12.5px 15px;
   }
   #profile-section .profile-card {
     width: 327px;

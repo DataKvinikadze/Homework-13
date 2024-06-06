@@ -108,7 +108,12 @@ searchBtn.addEventListener("click", (event) => {
         result.classList.remove("no-result");
 
         //name / nickname
-        userName.textContent = data.name;
+
+        if (data.name == null) {
+          userName.textContent = "No Name Found";
+        } else {
+          userName.textContent = data.name;
+        }
         userNick.textContent = `@${data.login}`;
 
         // bio
